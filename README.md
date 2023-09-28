@@ -2,7 +2,7 @@
 
 # Types of Hackers
 
-# Lab Setup for an Ethical Hacker
+- [Lab Setup for Ethical Hacking](#lab-setup-for-ethical-hacking)
 
 # Hacker's Team Membership
 
