@@ -29,6 +29,7 @@ Certified Ethical Hacker A to Z for self learner.
 
 
 # Types of Hackers
+![myImage](#https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNjF7zSDMVEeokxZOGbIT5PyNZLfUwsPmU8w&usqp=CAU)
 
 Hackers can be categorized into several types based on their intent and activities. Understanding these hacker types is crucial for maintaining cybersecurity and protecting digital assets. Here are some common types of hackers:
 
