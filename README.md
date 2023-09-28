@@ -198,6 +198,7 @@ These team memberships reflect the diverse roles and responsibilities within the
 
 
 # Freelancing in Cybersecurity
+![myImage](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuLpJf0R4GLqEQXuZzrbXefCs53dWkDCP_-w&usqp=CAU)
 
 If you're passionate about cybersecurity and want to work independently, freelancing can be a rewarding career option. Here are some remote job roles and opportunities in the field:
 
@@ -225,6 +226,8 @@ Explore these freelance opportunities in cybersecurity to leverage your skills a
 
 
 # Vulnerability Scoring Systems and Databases
+
+![myImage](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAHu_a9C1liAgyIb8JdR6gvCG6cZRKAT_EjQ&usqp=CAU)
 
 In the field of cybersecurity, vulnerability scoring systems and databases play a crucial role in identifying, categorizing, and prioritizing security vulnerabilities. Here are some prominent ones:
 
@@ -254,6 +257,7 @@ These vulnerability scoring systems and databases are essential tools for cybers
 # Want to Become an Ethical Hacker?
 
 ## একজন হ্যাকারের যা জানা থাকা দরকার
+![myImage](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDUgkB5-OkFW2OJrf0KrPM9d8SEdzNspDWjA&usqp=CAU)
 
 If you aspire to become an ethical hacker, there are essential skills and knowledge areas you need to focus on:
 
@@ -290,6 +294,9 @@ Remember that ethical hacking is about safeguarding systems and data, so always 
 
 
 # Some Very Common Hacking Tools
+
+![myImage](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSF81vFph0pylN-H9VFUoyA0UDP0VFb89CeSA&usqp=CAU)
+
 
 Here are some widely used hacking tools that security professionals and ethical hackers employ for various cybersecurity tasks:
 
@@ -349,6 +356,8 @@ These tools are essential for cybersecurity professionals to identify vulnerabil
 
 # Common Hacking Techniques
 
+![myImage](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRF7O9dHvmXsntwYTcD_z6jCSpgnMlyJ6vtpw&usqp=CAU)
+
 In the world of cybersecurity, understanding common hacking techniques is essential for identifying vulnerabilities and protecting against cyber threats. Here are some widely used hacking techniques:
 
 1. **Phishing**
@@ -397,6 +406,7 @@ Understanding these hacking techniques is crucial for safeguarding systems, netw
 
 
 # Hacking Devices
+![myImage](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxZyBK5ndghRxzlAXeZ8lSgCQNxD0yEA8B7w&usqp=CAU)
 
 In the realm of cybersecurity, various hacking devices are employed for research, penetration testing, and security analysis. These devices have diverse applications, from identifying vulnerabilities to testing system resilience. Here are some notable hacking devices:
 
