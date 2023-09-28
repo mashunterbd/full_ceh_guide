@@ -1,22 +1,24 @@
 - [Ethical Hacking Basics](#introducing-to-ethical-hacking)
 
-# Types of Hackers
+- [Types of Hackers](#types-of-hackers)
 
 - [Lab Setup for Ethical Hacking](#lab-setup-for-ethical-hacking)
 
-# Hacker's Team Membership
+- [Hacker's Team Membership](#hackers-team-membership)
+  
+- [Freelancing in Cybersecurity](#freelancing-in-cybersecurity)
+  
+  - [Vulnerability Scoring Systems and Databases](#vulnerability-scoring-systems-and-databases)
 
-# Freelancing in Cybersecurity
+- [Want to Become an Ethical Hacker?](#want-to-become-an-ethical-hacker)
 
-# Vulnerability Scoring Systems and Databases
+- [Some Very Common Hacking Tools](#some-very-common-hacking-tools)
 
-# Want To Become An Ethical Hacker?
+  - [Common Hacking Techniques](#common-hacking-techniques)
 
-# Some Common Hacking Techniques
+- [Hacking Devices](#hacking-devices)
 
-# Hacking Devices
-
-# Hacker Lab Setup
+- [Hacker Lab Setup](#hacker-lab-setup)
 _____________________________
 
 
