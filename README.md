@@ -1,3 +1,25 @@
+# Ethical Hacking Basics
+
+# Types of Hackers
+
+# Lab Setup for an Ethical Hacker
+
+# Hacker's Team Membership
+
+# Freelancing in Cybersecurity
+
+# Vulnerability Scoring Systems and Databases
+
+# Want To Become An Ethical Hacker?
+
+# Some Common Hacking Techniques
+
+# Hacking Devices
+
+# Hacker Lab Setup
+_____________________________
+
+
 # introducing to ethical hacking
 Certified Ethical Hacker A to Z for self learner.
 
