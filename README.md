@@ -76,6 +76,7 @@ Understanding the motivations and actions of these hacker types is essential for
 
 
 # Lab Setup for Ethical Hacking
+![myImage](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFMd1v_6nryNGx4WU1w3smDSVxKFFdaqB-xQ&usqp=CAU)
 
 Setting up a dedicated lab environment for ethical hacking is essential for practicing and honing your skills without risking real systems. Here's a step-by-step guide on how to set up your ethical hacking lab:
 
