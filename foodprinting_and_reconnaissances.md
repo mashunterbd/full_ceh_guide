@@ -189,3 +189,57 @@ Passive footprinting involves collecting information about a system located remo
 By understanding these techniques and sources, individuals can enhance their knowledge of footprinting in cybersecurity.
 
 ![images (2)](https://github.com/masshuvo/full_ceh_guide/assets/108648096/309fc493-67fc-47fa-85e6-727ff407e55d)
+
+
+# Fingerprinting in Ethical Hacking
+
+Fingerprinting refers to the methods used in ethical hacking to determine the operating system running on a remote computer. There are two main types of fingerprinting:
+
+## Active Fingerprinting
+Active fingerprinting involves sending specially crafted packets to a target machine and analyzing its response to determine the target's operating system. Tools like NMAP can be used for this purpose.
+
+## Passive Fingerprinting
+Passive fingerprinting relies on sniffer traces from the remote system, such as Wireshark data. By analyzing these traces, you can deduce the operating system of the remote host.
+
+### Factors Analyzed for OS Determination
+To determine the operating system, four important elements are examined:
+
+- TTL (Time-To-Live) set on outbound packets
+- Window Size
+- DF (Don't Fragment) bit
+- TOS (Type of Service) settings
+
+These factors help in OS identification, although it's not always 100% accurate and may work better for some operating systems than others.
+
+### Basic Steps
+Before attacking a system, it's crucial to determine the target's operating system. Once known, it's easier to identify potential vulnerabilities for exploitation.
+
+Here's a simple NMAP command to identify the OS and open ports of a website:
+
+```shell
+nmap -O -v tutorialspoint.com
+```
+
+# Port Scanning
+Port scanning reveals open ports on a server. For example:
+
+PORT     STATE   SERVICE 
+22/tcp   open    ssh 
+80/tcp   open    http 
+443/tcp  open    https 
+3306/tcp open    mysql
+
+
+Ping Sweep
+A ping sweep (ICMP sweep) helps find live hosts in a range of IP addresses. For example, using fping:
+
+```shell
+fping -a -g 192.168.0.1 192.168.0.255
+```
+
+# DNS Enumeration
+DNS enumeration gathers information about DNS servers and their records. Tools like nslookup and scripts like DNSenum.pl can assist in this process.
+
+Quick fixes and precautions are also discussed to safeguard systems against potential attacks.
+
+These techniques and tools are essential in ethical hacking to gather information about target systems and enhance security.
