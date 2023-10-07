@@ -146,3 +146,46 @@ Web application pentesters focus on evaluating the security of an organizationâ€
 Reconnaissance is an essential stage in ethical hacking that involves gathering information about a target system or network. It helps ethical hackers and pentesters identify vulnerabilities that could be exploited. By understanding the various techniques and tools used in reconnaissance, you can enhance your skills as an ethical hacker or pentester.
 
 
+# Footprinting in Cybersecurity
+
+Footprinting involves gathering information about a target system that can be used to execute a successful cyber attack. To obtain this information, hackers use various methods and tools. This information serves as the initial step for the hacker to exploit a system. There are two types of footprinting:
+
+## Active Footprinting
+Active footprinting involves direct interaction with the target machine.
+
+## Passive Footprinting
+Passive footprinting involves collecting information about a system located remotely from the attacker.
+
+### Information Gathered Through Footprinting
+
+- The operating system of the target machine
+- Firewall information
+- IP address
+- Network map
+- Security configurations of the target machine
+- Email IDs and passwords
+- Server configurations
+- URLs
+- VPN details
+
+### Sources for Footprinting
+
+1. **Social Media**: Hackers leverage the tendency of many individuals to share sensitive information online. They may create fake accounts to befriend or follow someone to gather their information.
+
+2. **JOB Websites**: Organizations often share confidential data on job websites. For example, a job posting mentioning "Job Opening for Lighttpd 2.0 Server Administrator" reveals that an organization uses the Lighttpd web server version 2.0.
+
+3. **Google**: Search engines like Google can be used for advanced searches, known as "Google hacking." Operators like "inurl," "allinurl," and "filetype" combined with basic search techniques can reveal sensitive information. For example, searching "inurl:ViewerFrame?Mode=" can find public web cameras.
+
+4. **Social Engineering**: Various techniques fall under this category, including eavesdropping and shoulder surfing, where attackers attempt to record personal information through communication mediums.
+
+5. **Archive.org**: This website collects snapshots of older website versions, providing information that may no longer exist on the current site.
+
+6. **Organization's Website**: The organization's website is a prime source for open-source information provided to clients, customers, or the public.
+
+7. **Using Neo Trace**: NeoTrace is a powerful tool for tracing network paths. It displays the route between the user and the remote site, including intermediate nodes and their information.
+
+8. **Whois**: This website allows hackers to trace information about domain names, email IDs, domain owners, and more, serving as a valuable tool for website footprinting.
+
+By understanding these techniques and sources, individuals can enhance their knowledge of footprinting in cybersecurity.
+
+![images (2)](https://github.com/masshuvo/full_ceh_guide/assets/108648096/309fc493-67fc-47fa-85e6-727ff407e55d)
