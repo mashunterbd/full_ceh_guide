@@ -245,14 +245,14 @@ Quick fixes and precautions are also discussed to safeguard systems against pote
 These techniques and tools are essential in ethical hacking to gather information about target systems and enhance security.
 
 # IP Track
-❑ IP Logger:-
-https://iplogger.org/
-https://grabify.link/
-❑ IP Locator:-
-https://www.iplocation.net/
-❑ Google Map(Location Track)
+## IP Logger:-
+- https://iplogger.org/
+- https://grabify.link/
+## IP Locator:-
+- https://www.iplocation.net/
+## Google Map(Location Track)
 Latitude & Longitude in Google Maps
-https://www.google.com/maps
+- https://www.google.com/maps
 
 # Domain (Website Info) >> Part-1
 
@@ -286,20 +286,14 @@ https://www.google.com/maps
 - https://whatcms.org/
 - https://cmsdetect.com/
 - https://www.wpthemedetector.com/
-❑ Chrome Extension
-- https://chrome.google.com/webstore/detail/what-cms-is-
-this/gamohlpmdjkdjepgdgjohkbfpmeelmem
-- https://chrome.google.com/webstore/detail/wappalyzer/gppongmhjkpfnbhagpmjfk
-annfbllamg?hl=en
+## Chrome Extension
+- https://chrome.google.com/webstore/detail/what-cms-is-this/gamohlpmdjkdjepgdgjohkbfpmeelmem
+- https://chrome.google.com/webstore/detail/wappalyzer/gppongmhjkpfnbhagpmjfkannfbllamg?hl=en
 
 
-# Which platform used for developing Ping to identify server details (Site BuiltWith)
-❑ Chrome Extension
-WhatRuns
-- https://chrome.google.com/webstore/detail/whatruns/cmkdbmfndkfgebld
-hnkbfhlneefdaaip?hl=en
-BuiltWith
-❑ Online Tools
+# Which platform used for developing Ping to identify server details (Site BuiltWith) Chrome Extension WhatRuns
+- https://chrome.google.com/webstore/detail/whatruns/cmkdbmfndkfgebldhnkbfhlneefdaaip?hl=enBuiltWith
+## Online Tools
 - https://builtwith.com/
 - https://sitereport.netcraft.com/
 - https://w3techs.com/site
@@ -307,28 +301,26 @@ BuiltWith
 
 
 # Extra Site Info
-❑ Domain Country Checker
-Alexa, Country Flag Etc Browser Extension
-❑ Domain Age Checker
+ Domain Country Checker Alexa, Country Flag Etc Browser Extension
+## Domain Age Checker
 - https://www.duplichecker.com/domain-age-checker.php
-❑ SSL Checker
+  ## SSL Checker
 - https://www.digicert.com/help/
-❑ Check Server Status
+## Check Server Status
 - https://smallseotools.com/check-server-status/
-❑ Website Speed Checker
+## Website Speed Checker
 - https://tools.pingdom.com/
 - https://gtmetrix.com/
-❑ WEBSITE LINK COUNTER CHECKER
+## WEBSITE LINK COUNTER CHECKER
 - https://smallseotools.com/website-links-count-checker/
 
 
 
 # Email Header
-❑ Online Tools
+## Online Tools
 - https://mxtoolbox.com/EmailHeaders.aspx
 - https://www.whatismyip.com/email-header-analyzer/
-- https://chrome.google.com/webstore/detail/email-tracker-for-gmail-
-m/ndnaehgpjlnokgebbaldlmgkapkpjkkb
+- https://chrome.google.com/webstore/detail/email-tracker-for-gmail-m/ndnaehgpjlnokgebbaldlmgkapkpjkkb
 
 
 # Valid Email Address Checker
