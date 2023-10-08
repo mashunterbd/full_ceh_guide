@@ -223,11 +223,11 @@ nmap -O -v tutorialspoint.com
 # Port Scanning
 Port scanning reveals open ports on a server. For example:
 
-PORT     STATE   SERVICE 
-22/tcp   open    ssh 
-80/tcp   open    http 
-443/tcp  open    https 
-3306/tcp open    mysql
+PORT      STATE   SERVICE 
+22/tcp    open    ssh 
+80/tcp    open    http 
+443/tcp   open    https 
+3306/tcp  open    mysql
 
 
 Ping Sweep
@@ -243,3 +243,148 @@ DNS enumeration gathers information about DNS servers and their records. Tools l
 Quick fixes and precautions are also discussed to safeguard systems against potential attacks.
 
 These techniques and tools are essential in ethical hacking to gather information about target systems and enhance security.
+
+# IP Track
+❑ IP Logger:-
+https://iplogger.org/
+https://grabify.link/
+❑ IP Locator:-
+https://www.iplocation.net/
+❑ Google Map(Location Track)
+Latitude & Longitude in Google Maps
+https://www.google.com/maps
+
+# Domain (Website Info) >> Part-1
+
+- [https://whois.domaintools.com/](https://whois.domaintools.com/)
+- [https://domainbigdata.com/](https://domainbigdata.com/)
+
+**DNS:**
+
+- [https://smallseotools.com/domain-ip-lookup/](https://smallseotools.com/domain-ip-lookup/)
+- [https://dnsdumpster.com/](https://dnsdumpster.com/)
+- [https://www.ultratools.com/tools/dnsLookup](https://www.ultratools.com/tools/dnsLookup)
+- [https://dnschecker.org/ns-lookup.php](https://dnschecker.org/ns-lookup.php)
+
+**Site Hosting Company Info:**
+
+- [https://smallseotools.com/domain-hosting-checker/](https://smallseotools.com/domain-hosting-checker/)
+- [https://hostingchecker.com](https://hostingchecker.com)
+
+
+# Domain (Website Info) >> Part-2
+❑ Reverse Ip
+- [https://www.yougetsignal.com/tools/web-sites-on-web-server/](https://www.yougetsignal.com/tools/web-sites-on-web-server/)
+- [https://hackertarget.com/reverse-ip-lookup/](https://hackertarget.com/reverse-ip-lookup/)
+- [https://www.whoishostingthis.com/](https://www.whoishostingthis.com/)
+- [https://smallseotools.com/reverse-ip-lookup/](https://smallseotools.com/reverse-ip-lookup/)
+
+
+
+# Which platform used for developing Ping to identify server details (CMS Check)
+❑ CMS Check
+- https://whatcms.org/
+- https://cmsdetect.com/
+- https://www.wpthemedetector.com/
+❑ Chrome Extension
+- https://chrome.google.com/webstore/detail/what-cms-is-
+this/gamohlpmdjkdjepgdgjohkbfpmeelmem
+- https://chrome.google.com/webstore/detail/wappalyzer/gppongmhjkpfnbhagpmjfk
+annfbllamg?hl=en
+
+
+# Which platform used for developing Ping to identify server details (Site BuiltWith)
+❑ Chrome Extension
+WhatRuns
+- https://chrome.google.com/webstore/detail/whatruns/cmkdbmfndkfgebld
+hnkbfhlneefdaaip?hl=en
+BuiltWith
+❑ Online Tools
+- https://builtwith.com/
+- https://sitereport.netcraft.com/
+- https://w3techs.com/site
+
+
+
+# Extra Site Info
+❑ Domain Country Checker
+Alexa, Country Flag Etc Browser Extension
+❑ Domain Age Checker
+- https://www.duplichecker.com/domain-age-checker.php
+❑ SSL Checker
+- https://www.digicert.com/help/
+❑ Check Server Status
+- https://smallseotools.com/check-server-status/
+❑ Website Speed Checker
+- https://tools.pingdom.com/
+- https://gtmetrix.com/
+❑ WEBSITE LINK COUNTER CHECKER
+- https://smallseotools.com/website-links-count-checker/
+
+
+
+# Email Header
+❑ Online Tools
+- https://mxtoolbox.com/EmailHeaders.aspx
+- https://www.whatismyip.com/email-header-analyzer/
+- https://chrome.google.com/webstore/detail/email-tracker-for-gmail-
+m/ndnaehgpjlnokgebbaldlmgkapkpjkkb
+
+
+# Valid Email Address Checker
+## Online Valid Mail Checker
+- https://quickemailverification.com/
+- https://network-tools.com/
+# Valid Mail Verifier Tool
+To check mail address valid or invalid
+
+
+# IP Locator Best One
+- https://ipinfo.io
+
+# Data Breach Checker
+- https://breachdirectory.org/
+- https://haveibeenpwned.com/
+
+# epieos Tools |Email Recon
+## epieos Tools - Email Checking Tool - Leaks, Google Profiles | OSINT Recon
+- https://tools.epieos.com/
+
+
+
+# Subdomain Enumeration Suite
+❑ Sub3 Suite is a research-grade suite of tools for Subdomain Enumeration, OSINT
+Information gathering & Attack Surface Mapping. Supports both manual and automated
+analysis on variety of target types with many available features & tools.
+❑ Github: 3nock/sub3suite: a free, open source, cross platform Intelligence
+gathering tool. (github.com)
+
+
+# OSINT Sites List
+
+- [Biggest OSINT Sites List](https://start.me/p/b5Aow7/asint_collection)
+
+
+
+# Recon
+- [GitHub: Reconator](https://github.com/Teammatrixx/Reconator)
+
+
+# TryHackMe Room
+
+- [https://tryhackme.com/room/threatinteltools](https://tryhackme.com/room/threatinteltools)
+
+# Theory
+
+- [https://tryhackme.com/room/geolocatingimages](https://tryhackme.com/room/geolocatingimages)
+- [https://tryhackme.com/room/ohsint](https://tryhackme.com/room/ohsint)
+- [https://tryhackme.com/room/searchlightosint](https://tryhackme.com/room/searchlightosint)
+
+
+
+
+
+
+
+
+
