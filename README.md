@@ -32,6 +32,8 @@ _____________________________
 # introducing to Ethical hacking
 Certified Ethical Hacker A to Z for self learner.
 
+https://www.tutorialspoint.com/ethical_hacking/ethical_hacking_reconnaissance.htm
+
 <p> An ethical hacker, also known as a white-hat hacker, is a cybersecurity professional who legally and ethically attempts to penetrate computer systems, networks, and applications to identify and fix security vulnerabilities. They use their skills to strengthen security measures, protect against malicious hackers, and help organizations safeguard their digital assets. Ethical hackers often perform activities such as penetration testing, vulnerability assessments, and security audits to enhance cybersecurity. Their work plays a crucial role in maintaining the integrity and confidentiality of digital information. </p>
 
 
