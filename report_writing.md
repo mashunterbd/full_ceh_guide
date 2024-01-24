@@ -1,12 +1,13 @@
-1. vulnerability
+# Things to mention in the report: 
+1. Vulnerability
 
-2. severity
+2. Severity
 
-3. Desc
+3. Description
 
 4. Instance
 
-5.POC (proof of concept)
+5. POC (proof of concept)
 
 6. Steps to rep
 
@@ -61,7 +62,8 @@ The XSS vulnerability poses a high risk, leading to potential:
 
 * Cookie Stealing
 
-# Mitigation
+### <span style="color:green">Mitigation</span>
+
 
 * Input Validation
 
