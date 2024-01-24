@@ -18,28 +18,28 @@
 
 
 -------------------------------------------------------
+                                   # Vulnerability Report
 
-Vulnerability Report 
+## Vulnerability: Cross-Site Scripting (XSS)
 
-Vulnerability: Cross site scripting (XSS)
+**Severity:** High
 
-Severity: High
+### Description
 
-Description:
+Cross-site scripting is a critical computer security vulnerability where an attacker attempts to execute malicious scripts in a web browser of the victim by injecting malicious code into a legitimate web page or web application.
 
-Cross site scripting is a type of computer security vulnerability, the attacker aims to execute malicious scripts in a web browser of the victim by including malicious code in a legitimate web page of web application.
+### Instance
 
-Instance:
+- **URL:** [www.xyz.com/deb/search?query=](www.xyz.com/deb/search?query=)
+  
+- **Payload:**
+  ```html
+  <script> alert(1); </script>
 
-URL: www.xyz.com/deb/search?query=
+# Proof of Concept
+Screenshots of the browser page demonstrating the successful execution of the payload.
 
-Payload:
-
-<script> alert(1); </script>
-
-Proof of Concept: Screen shots of the browser page
-
-Steps to Reproduce:
+# Steps to Reproduce
 
 1. Go to www.xyz.com/deb/search?query=
 
@@ -47,7 +47,9 @@ Steps to Reproduce:
 
 3. Check the response
 
-Impact:
+
+# Impact
+The XSS vulnerability poses a high risk, leading to potential:
 
 * Open Redirection
 
@@ -59,10 +61,19 @@ Impact:
 
 * Cookie Stealing
 
-Mitigation:
+# Mitigation
 
 * Input Validation
 
 * Encoding
 
-Reference: OWASP/CVE/NVD
+• Input Validation: Validate and sanitize user inputs to ensure they adhere to expected formats. </br>
+• Encoding: Encode output data to prevent malicious script execution.
+
+# Reference
+OWASP/CVE/NVD link 🔗
+
+Examples screenshot: 
+
+![Screenshot_2024-01-24-10-02-16-362_com google android youtube](https://github.com/masshuvo/full_ceh_guide/assets/108648096/3368e757-9cbd-4607-af6e-af627ee2885b)
+![Screenshot_2024-01-24-10-02-37-586_com google android youtube](https://github.com/masshuvo/full_ceh_guide/assets/108648096/dc85fcec-c8e5-439e-8456-11eb5e3f64a2)
