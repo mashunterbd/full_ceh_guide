@@ -5,3 +5,56 @@
 When a user visits the affected web page, the malicious code can execute on their browser and steal sensitive information, such as login credentials or session tokens. The attacker can also use this vulnerability to modify the content of the web page and trick users into performing unintended actions.
 
 XSS attacks can be prevented by properly validating and sanitizing user input, encoding output data, and implementing security measures like Content Security Policy (CSP). Web developers should also stay up-to-date with the latest security best practices and vulnerabilities to protect their applications from attacks. </p>
+
+
+-------------------------------------------------------
+
+
+# Types of XSS?
+There are three main types of XSS attacks:
+
+- Reflected XSS: This is the most common tupe of XSS attack. It occurs when an attacker
+injects malicious code into a URL that is then visited bụ the victim. The malicious code is then
+reflected to the victim's browser, where it is executed.
+
+- Stored XsS: This tupe of XSS attack occurs when malicious code is stored in a web
+application. This can happen when an attacker is able to upload a file to the application, or
+when they are able to modify existing content. When a victim visits the web application, the
+malicious code is executed.
+
+- DOM-based XSS:This type of XSS attack does not involve the injection of malicious code into
+a URL Or a web application. Instead, the malicious code is injected into the Document Object
+Model (DOM) of the web page. The DOM is the internal representation of a web page that is
+used bu the browser. When a victim visits the web page, the malicious code is executed in the
+browser's DOM.
+
+![Screenshot_2024-01-24-10-53-37-825_com google android youtube](https://github.com/masshuvo/full_ceh_guide/assets/108648096/ead9efa4-4640-457a-8e4d-b610d0b18dd5)
+
+
+# Some Java Script event and Function for our XSS Exploitatio
+```
+alert
+```
+Use Case: To Popup Message
+```
+prompt0
+```
+Use Cese: To show prompt
+```
+print
+```
+Use Case: To Print current page
+```
+document.cookie[]
+```
+Use Case: cookie used bụ current website
+```
+document.getElementByld(id)
+```
+Use Case: This method is used to retrieve an element from the DOM based on its unique id attribute. It is
+helpful when you need to access a specific element to manipulate its content or behavior.
+```
+document.query Selector(selector)
+```
+Use Case: This method allows you to select the first element that matches a specified CSS selector. It
+is helpful when you want to select elements using CSs-ike syntax.
