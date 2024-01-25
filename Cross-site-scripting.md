@@ -82,3 +82,27 @@ appearance.
 waybackurls testphp.vulnweb.com| tee savvuln. txt
 
  waybackurls bytecapsuleit.com | grep -a -i \=http | qsreplace 'http://evil.com' | while read host do;do curl -s -L $host -I|grep "evil.com" && echo -e "$host \033[0;31mVulnerable\n" ;done
+
+ # for install 
+ ## waybackurls
+ ```
+go install github.com/tomnomnom/waybackurls@latest
+
+```
+## qsreplace
+ ```
+go install github.com/tomnomnom/qsreplace@latest
+```
+
+### Download path is 
+```
+cd go/bin
+```
+
+## for command setup in go 
+
+```
+cp waybackurls /usr/local/bin
+```
+
+after do thet you can use this tool from anywere on terminal.
