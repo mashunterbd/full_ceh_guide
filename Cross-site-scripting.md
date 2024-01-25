@@ -80,3 +80,5 @@ appearance.
 ![image](https://github.com/masshuvo/full_ceh_guide/assets/108648096/35d4c96b-3633-4c5d-911a-bdded80232e5)
 
 waybackurls testphp.vulnweb.com| tee savvuln. txt
+
+ waybackurls bytecapsuleit.com | grep -a -i \=http | qsreplace 'http://evil.com' | while read host do;do curl -s -L $host -I|grep "evil.com" && echo -e "$host \033[0;31mVulnerable\n" ;done
