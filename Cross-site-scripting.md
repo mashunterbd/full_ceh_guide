@@ -58,3 +58,25 @@ document.query Selector(selector)
 ```
 Use Case: This method allows you to select the first element that matches a specified CSS selector. It
 is helpful when you want to select elements using CSs-ike syntax.
+
+
+
+# What is Open Redirection Vulnerability?
+A web application accepts a user-controlled input that specifies a
+link to an external site, and uses that link in a Redirect. This
+simplifies phishing attacks.
+By modifying the URL value to a malicious site, an attacker may
+successfully launch a phishing scam and steal user credentials.
+Because of the server name in the modified link is identical to the
+original site, phishing attempts have a more trustworthy
+appearance.
+
+
+![image](https://github.com/masshuvo/full_ceh_guide/assets/108648096/dcb0e9e3-46e0-45f3-a6f6-a24ecaa8d71b)
+![image](https://github.com/masshuvo/full_ceh_guide/assets/108648096/28268084-fd79-4a78-aeea-ebe9e2d4b5dd)
+![image](https://github.com/masshuvo/full_ceh_guide/assets/108648096/8172273f-1fa2-4e06-bf3d-b9be8158dffd)
+# pre
+
+![image](https://github.com/masshuvo/full_ceh_guide/assets/108648096/35d4c96b-3633-4c5d-911a-bdded80232e5)
+
+waybackurls testphp.vulnweb.com| tee savvuln. txt
