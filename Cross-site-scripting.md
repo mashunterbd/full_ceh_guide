@@ -107,6 +107,89 @@ cp waybackurls /usr/local/bin
 
 after do thet you can use this tool from anywere on terminal.
 
+# Automate vulenervale site find from all links 
+
+Gf, A tool made by @tomnomnom "is A wrapper around grep, to help you grep for things". The Github Repository for GF can be found here:
+https://github.com/tomnomnom/gf
+
+GF Patterns is an open-source project made by @1ndianl33t and this project contains custom patterns that can be used with the original GF tool to grep for patterns for common bugs like XSS, SQLi, and SSRF.
+The Github repository for this can be found here: 
+https://github.com/1ndianl33t/Gf-Patt...
+
+Note: You need to have GO installed correctly before you can install this tool. You can install Go on your OS here: https://golang.org/doc/install
+
+Installation:
+1) First install GF-Patterns by @1ndianl33t in the root directory-
+```
+git clone https://github.com/1ndianl33t/Gf-Patterns
+```
+3) Then install Gf by @Tomnomnom- https://github.com/tomnomnom/gf
+   ```
+   go install https://github.com/tomnomnom/gf@latest
+   ```
+   <code> mv gf /user/local/bin </code>
+   
+4) go get -u github.com/tomnomnom/gf
+5) This should install GF and GF Patterns correctly.
+6) If you faced any errors during Installation then please comment down below.
+
+Usage:
+
+Configure GF to work with GF Patterns:
+
+1)Go to the root directory
+2) mkdir .gf
+3) Go to /root/Gf-Patterns
+4) mv *.json /root/.gf 
+5) Now to test if GF is working: 
+
+```
+gf -list
+```
+
+CONFIGURED GF CORRECTLY!
+
+(-list)To list all of the available patterns
+The most important command:
+(cat urls.txt | gf "name of pattern")
+
+This command doesn't work all that properly, it searches specific for keywords.
+So it can give some invalid results too(as in the results not useful for us)
+
+We will use some regex to use GF at it's best!
+
+We will get the target URLs using Waybackurls, as demonstrated in our previous
+video:
+
+echo "vulnweb.com" | waybackurls -no-subs | tee urls.txt
+
+The final command:
+
+cat urls.txt | gf "name of pattern" | sed 's/=.*/=/' | sed 's/URL: //' | sort -u | tee output.txt
+
+## xss
+```
+cat urls.txt | gf xss | sed 's/=.*/=/' | sed 's/URL: //' | sort -u | tee output.txt
+```
+## lfi
+```
+cat urls.txt | gf lfi | sed 's/=.*/=/' | sed 's/URL: //' | sort -u | tee output.txt
+```
+## SQLI
+```
+cat urls.txt | gf sqli | sed 's/=.*/=/' | sed 's/URL: //' | sort -u | tee output.txt
+```
+## redirecti
+```
+cat urls.txt | gf redirect | sed 's/=.*/=/' | sed 's/URL: //' | sort -u | tee output.txt
+```
+
+Now we got all urls with parameters that might be vulnerable to XSS, SQLi etc.
+So, this way we can try different payloads and start fuzzing.
+
+Video: https://www.youtube.com/watch?v=aYkD9BvAjwg
+
+
 ![image](https://github.com/masshuvo/full_ceh_guide/assets/108648096/6b976f9a-0df9-4ea9-a7d7-c0270489af51)
 
 ![image](https://github.com/masshuvo/full_ceh_guide/assets/108648096/f2b4e457-b0e6-401a-b6a8-4a55a0f84704)
