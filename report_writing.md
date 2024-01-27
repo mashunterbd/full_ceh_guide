@@ -9,7 +9,7 @@
 
 5. POC (proof of concept)
 
-6. Steps to rep
+6. Steps to Reproduce
 
 7. Impact
 
