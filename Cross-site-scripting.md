@@ -139,7 +139,7 @@ after do thet you can use this tool from anywere on terminal.
 ![image](https://github.com/masshuvo/full_ceh_guide/assets/108648096/a1c0d4ec-de7d-4ed3-9265-a17369192457)
 
 
-Video Link https://www.youtube.com/watch?v=G8lSO9BvO5Y&list=LL&index=10&t=10s
+Video Link https://www.youtube.com/watch?v=G8lSO9BvO5Y&list=LL&index=10&t
 
 
 
