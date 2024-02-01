@@ -10,3 +10,23 @@ masshuvo.tv@gmail.com
 ```
 ### 👆 যখন আপনি নিজে প্র্যাকটিস করবেন তখন এখানে আপনার নিজের ইমেইল এড্রেস বসাবেন। 
 
+Email Spoofing by Kali Nethunter
+
+```
+sendemail -f "MAS Hunter  <hridoykhan513494@gmail.com>" -t masshuvo.bd@gmail.com -u "Welcome To Our program" -m "$(cat welcome-email-xyimeasi.html)" -s smtp-relay.brevo.com:587 -xu  md.abubakkr990@gmail.com -xp c5MbJ3kLBVYszHt
+```
+
+
+This is sender Email: hridoykhan513494@gmail.com
+
+This is victim Email: masshuvo.bd@gmail.com
+
+Smtp server: https://app.brevo.com/settings/keys/smtp
+
+
+Tool: sendemail 
+
+Install: 
+```
+apt-get install sendemail -y
+```
