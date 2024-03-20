@@ -234,7 +234,10 @@ Video Link https://www.youtube.com/watch?v=G8lSO9BvO5Y&list=LL&index=10&t
 
 
 
-
+# Website Performance Check
+- Lighthouse → any browser extension inspect
+- GT Matrix → https://gtmetrix.com/
+- Page Speed Insights → https://pagespeed.web.dev/
 
 
 
