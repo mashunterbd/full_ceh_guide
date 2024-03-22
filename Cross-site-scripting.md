@@ -195,6 +195,15 @@ cat remove.txt | gf sqli | sed 's/=.*/=/' | sed 's/URL: //' | sort -u | tee sqli
 ```
 sqlmap -m sqli.txt -v --risk=3 --level=5 -a --batch --abort-on-empty
 ```
+#for a Alive subdomain
+```
+massdns -r /usr/share/sniper/plugins/massdns/lists/resolvers.txt -t A -o S subdomains.txt -w massdns.txt
+```
+then 
+```
+ sed 's/A.*//' massdns.txt | sed 's/CN.*//' | sed 's/\..$//' > live-subdomain.txt
+```
+
 Now we got all urls with parameters that might be vulnerable to XSS, SQLi etc.
 So, this way we can try different payloads and start fuzzing.
 
