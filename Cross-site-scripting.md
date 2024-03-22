@@ -190,7 +190,11 @@ cat urls.txt | gf redirect | sed 's/=.*/=/' | sed 's/URL: //' | sort -u | tee ou
 ```
 cat remove.txt | gf sqli | sed 's/=.*/=/' | sed 's/URL: //' | sort -u | tee sqli.txt && cat remove.txt | gf redirect | sed 's/=.*/=/' | sed 's/URL: //' | sort -u | tee redirect.txt && cat remove.txt | gf lfi | sed 's/=.*/=/' | sed 's/URL: //' | sort -u | tee Lfi.txt && cat remove.txt | gf xss | sed 's/=.*/=/' | sed 's/URL: //' | sort -u | tee xss.txt && cat remove.txt | gf idor | sed 's/=.*/=/' | sed 's/URL: //' | sort -u | tee idor.txt && cat remove.txt | gf ssrf | sed 's/=.*/=/' | sed 's/URL: //' | sort -u | tee ssrf.txt && cat remove.txt | gf rce | sed 's/=.*/=/' | sed 's/URL: //' | sort -u | tee rce.txt && cat remove.txt | gf interestingparams | sed 's/=.*/=/' | sed 's/URL: //' | sort -u | tee interestingparams.txt && cat remove.txt | gf img-traversal | sed 's/=.*/=/' | sed 's/URL: //' | sort -u | tee img-traversal.txt && cat remove.txt | gf interestingEXT | sed 's/=.*/=/' | sed 's/URL: //' | sort -u | tee interestingEXT.txt && cat remove.txt | gf interestingsubs | sed 's/=.*/=/' | sed 's/URL: //' | sort -u | tee interestingsubs.txt && cat remove.txt | gf debug_logic | sed 's/=.*/=/' | sed 's/URL: //' | sort -u | tee debug_logic.txt && cat remove.txt | gf jsvar | sed 's/=.*/=/' | sed 's/URL: //' | sort -u | tee jsvar.txt && cat remove.txt | gf ssti | sed 's/=.*/=/' | sed 's/URL: //' | sort -u | tee ssti.txt
 ```
+# Attack SQL AUTO.
 
+```
+sqlmap -m sqli.txt -v --risk=3 --level=5 -a --batch --abort-on-empty
+```
 Now we got all urls with parameters that might be vulnerable to XSS, SQLi etc.
 So, this way we can try different payloads and start fuzzing.
 
